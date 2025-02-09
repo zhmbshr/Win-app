@@ -91,6 +91,20 @@
     </footer>
 
 
+
+
+    <script>
+        const sidebarItems = document.querySelectorAll('#sidebar-admin ul li')
+        const sidebarSearch = document.getElementById('sidebar-search')
+    
+        sidebarItems.forEach(item => {
+            item.addEventListener('click', () => {
+                sidebarSearch.classList.toggle('active')
+            })
+        })
+    </script>
+
+
 </body>
 
 </html>
