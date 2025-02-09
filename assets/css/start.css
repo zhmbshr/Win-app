@@ -214,6 +214,14 @@ body {
     color: #ffffff;
 }
 
+#conteiner-admin #sidebar-search {
+    display: none;
+    transition: 0.6s linear;
+}
+
+#conteiner-admin #sidebar-search.active {
+    display: block;
+}
 
 /* MAIN */
 #conteiner-admin #main-admin {
