@@ -1,0 +1,45 @@
+@font-face {
+    font-family: iranyekan;
+    src: url(./IRANYekanWebThin.woff2);
+    font-weight: 100;
+ }
+ @font-face {
+    font-family: iranyekan;
+    src: url(./IRANYekanWebLight.woff2);
+    font-weight: 300;
+ }
+ @font-face {
+    font-family: iranyekan;
+    src: url(./IRANYekanWebRegular.woff2);
+    font-weight: 400;
+ }
+ @font-face {
+    font-family: iranyekan;
+    src: url(./IRANYekanWebMedium.woff2);
+    font-weight: 500;
+ }
+ @font-face {
+    font-family: iranyekan;
+    src: url(./IRANYekanWebBold.woff2);
+    font-weight: 700;
+ }
+ @font-face {
+    font-family: iranyekan;
+    src: url(./IRANYekanWebExtraBold.woff2);
+    font-weight: 800;
+ }
+@font-face {
+    font-family: iranyekan;
+    src: url(./IRANYekanWebBlack.woff2);
+    font-weight: 900;
+ }
+
+@font-face {
+    font-family: iranyekan;
+    src: url(./IRANYekanWebExtraBlack.woff2);
+    font-weight: 950;
+ }
+
+
+
+
