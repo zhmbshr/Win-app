@@ -141,6 +141,42 @@ body {
     color: #ffffff;
 }
 
+#conteiner-admin #sidebar-admin ul li .tooltip {
+    position: absolute;
+    top: 15%;
+    right: 103%;
+    transform: translateY(-10%);
+    background-color: #7ea2bc;
+    color: #fff;
+    padding: 5px 15px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    z-index: 100;
+    font-size: 13px;
+    border-radius: 4px;
+}
+
+#conteiner-admin #sidebar-admin ul li .tooltip::after {
+    content: "";
+    position: absolute;
+    top: 15%;
+    right: -3px;
+    width: 20px;
+    height: 20px;
+    border-radius: 1px;
+    background-color: #7ea2bc;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+#conteiner-admin #sidebar-admin ul li:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-50%) translateX(5x);
+}
+
 
 /* MAIN */
 #conteiner-admin #main-admin {
